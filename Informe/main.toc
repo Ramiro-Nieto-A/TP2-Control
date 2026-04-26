@@ -1,0 +1,7 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Introducción}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Resumen}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Presentación de los resultados}{3}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Sistema a lazo abierto}{4}{section.2}%
+\contentsline {section}{\numberline {3}Realimentación lineal de estados}{6}{section.3}%
+\contentsline {section}{Referencias}{8}{figure.caption.3}%
