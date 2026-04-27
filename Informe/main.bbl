@@ -35,8 +35,8 @@
       \strng{authornamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
       \strng{authorfullhash}{98891ef37ae74f3a00ae9a7c9c316e78}
       \strng{authorfullhashraw}{98891ef37ae74f3a00ae9a7c9c316e78}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Último acceso: marzo de 2025}
@@ -67,13 +67,14 @@
       \strng{authorfullhash}{76fd4278d7e507a7de98e37a2b2de1a7}
       \strng{authorfullhashraw}{76fd4278d7e507a7de98e37a2b2de1a7}
       \field{extraname}{1}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{International Journal of Electronics, Vol. 38, No. 4, pp. 485--512. Último acceso: marzo de 2025}
       \field{title}{Measurement of Loop Gain in Feedback Systems}
       \field{year}{1975}
+      \true{nocite}
       \verb{urlraw}
       \verb https://www.venableinstruments.com/hubfs/Middlebrook_Measurement%20of%20loop%20gain%20in%20feedback%20systems.pdf
       \endverb
@@ -98,13 +99,14 @@
       \strng{authorfullhash}{76fd4278d7e507a7de98e37a2b2de1a7}
       \strng{authorfullhashraw}{76fd4278d7e507a7de98e37a2b2de1a7}
       \field{extraname}{2}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Circuits and Systems Exposition (Review Version). Último acceso: marzo de 2026}
       \field{title}{The GFT: A General Yet Practical Feedback Theorem}
       \field{year}{2002}
+      \true{nocite}
       \verb{urlraw}
       \verb http://rdmiddlebrook.com/wp-content/uploads/2014/05/The-GFT.pdf
       \endverb
@@ -143,8 +145,8 @@
       \strng{authornamehash}{b908a29cc3e7eb01410f2b161eed7d58}
       \strng{authorfullhash}{0e7adadefb9f17202065a1222c720d1c}
       \strng{authorfullhashraw}{0e7adadefb9f17202065a1222c720d1c}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Circuits and Devices Magazine}
@@ -154,6 +156,7 @@
       \field{title}{Striving for Small-Signal Stability: Loop-Based and Device-Based Algorithms for Stability Analysis of Linear Analog Circuits in the Frequency Domain}
       \field{volume}{17}
       \field{year}{2001}
+      \true{nocite}
       \field{pages}{31\bibrangedash 41}
       \range{pages}{11}
       \verb{doi}

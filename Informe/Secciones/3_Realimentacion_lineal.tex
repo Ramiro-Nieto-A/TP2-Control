@@ -90,4 +90,17 @@ Sustituyendo numéricamente, se obtiene la expresión final del sistema realimen
 Esta función de transferencia a lazo cerrado garantiza el cumplimiento de las especificaciones de diseño, presentando una ganancia unitaria en continua y ubicando los polos en una posición tal que el régimen transitorio queda acotado al sobrepico requerido.
 
 \subsection{Cálculo de componentes físicos para la realimentación}
-FALTANTE
+
+En vista a obtener físicamente el sistema modelado bajo cálculo se propone la incorporación de las siguientes resistencias:
+
+\vspace{1cm}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width = \textwidth]{Imagenes/2_Analisis_lazo_abierto/representacion_CL.pdf}
+  \caption{Sistema a lazo cerrado | Circuito.}
+  \label{fig: sistema a lazo cerrado circ}
+\end{figure}
+
+\noindent Por un lado $R_{k1}$ esta orientada a la realiementación de coeficiente $k_1$, como su nombre lo indica. El valor resistivo de $10k\Omega$ esta asociado a que la ganancia en un sumador inversor corresponde a $R_f/R_{add}$, para que esta ganancia sea unitaria $R_{k1} = R_{add} = R_f = 10k\Omega$. 
+
+Por otro lado, se dispone de $R_{k2} = 8530\Omega$. Este valor resistivo esta asociado a obtener una ganancia de $k_2 = 0.05535$; sin embargo, se ha de considerar que no se esta realimentando directamente a la variable de estado $x_2$, sino que se esta tomando $x_2 \cdot 1/21.277$. De este modo, la ganancia a implementar corresponde a $21.277 \cdot 0.05535 \approx 1.172$. Consecuentemente se obtiene que $R_{k2} = R_f / 1.178 \approx 8530\Omega$. 
