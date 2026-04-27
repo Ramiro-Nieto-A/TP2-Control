@@ -4,4 +4,12 @@
 \contentsline {subsection}{\numberline {1.2}Presentación de los resultados}{3}{subsection.1.2}%
 \contentsline {section}{\numberline {2}Sistema a lazo abierto}{4}{section.2}%
 \contentsline {section}{\numberline {3}Realimentación lineal de estados}{6}{section.3}%
-\contentsline {section}{Referencias}{8}{figure.caption.3}%
+\contentsline {subsection}{\numberline {3.1}Cálculo de componentes físicos para la realimentación}{8}{subsection.3.1}%
+\contentsline {section}{\numberline {4}Comparación de resultados}{9}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Respuesta del sistema completo a lazo cerrado}{9}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Análisis en el Plano de Fase}{10}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Análisis de la realimentación intermedia}{11}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Análisis teórico a lazo cerrado}{11}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Respuesta temporal: Simulación vs. Medición}{12}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Análisis en el Plano de Fase}{13}{subsection.5.3}%
+\contentsline {section}{\numberline {6}Requerimiento de Control Integral}{14}{section.6}%

@@ -68,3 +68,26 @@ Una vez que se confirma la controlabilidad del sistema es posible continuar con 
   \caption{Sistema a lazo cerrado | Diagrama en bloques.}
   \label{fig: sistema a lazo cerrado diagrama}
 \end{figure}
+
+A partir de los valores de realimentación hallados, es posible determinar los parámetros dinámicos exactos del sistema resultante. Tomando el requerimiento de sobrepico máximo admisible del 25\% ($OS = 0,25$), se determina el factor de amortiguamiento $\xi$ deseado despejando de la Ecuación (8):
+
+\begin{equation}
+	\xi = \sqrt{\frac{\ln(0,25)^2}{\pi^2 + \ln(0,25)^2}} \approx 0,4037
+\end{equation}
+
+Con este factor de amortiguamiento, la ganancia de la planta $G_0 = 212,77$, y las ganancias de realimentación calculadas ($k_1 = 1$ y $k_2 = 0,05535$), se define la función de transferencia a lazo cerrado resultante $T(s)$. Reemplazando los valores en la Ecuación (5) adaptada para la transferencia de la salida respecto a la entrada:
+
+\begin{equation}
+	T(s) = \frac{Y(s)}{U(s)} = \frac{G_0 \cdot k_1}{s^2 + s \cdot G_0 \cdot k_2 + G_0 \cdot k_1}
+\end{equation}
+\newpage
+Sustituyendo numéricamente, se obtiene la expresión final del sistema realimentado:
+
+\begin{equation}
+	T(s) = \frac{212,77}{s^2 + 11,78s + 212,77}
+\end{equation}
+
+Esta función de transferencia a lazo cerrado garantiza el cumplimiento de las especificaciones de diseño, presentando una ganancia unitaria en continua y ubicando los polos en una posición tal que el régimen transitorio queda acotado al sobrepico requerido.
+
+\subsection{Cálculo de componentes físicos para la realimentación}
+FALTANTE
